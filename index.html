@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfoloi Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/a7f3fa6d59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        
+        <nav>
+            <img src="images/GSlogo-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                
+            </ul>
+            <img src="images/1721750210097.jpg" class="right-picture">
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p> I am Web Developer</p>
+        <h1>Hi, I'm <span>Hari Shankar </span><br> <span class="red-text">Basnet</span> from <span class="blue-text">N</span><span class="green-text">epal</span></h1>
+        </div>
+        
+    </div>
+</div>
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/1706979181767.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title"> About Me</h1>
+    
+          <p> My name is hari shankar basnet, and I am from Solukhumbu. I am Hindu and currently studying Bachelor of Computer Science in the 1st 
+            semester at MMAMC. I complete my +2 from Shikshadeep College. I have khowledge of C++, HTML, CSS, JavaScript, Web development, and 
+            I use Visual Studio Code for coding. I am interested in freelancing and want to explore opportunities in that field.
+          </p>
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+       </div>
+       <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>WEB Development</span><br>Studied frontend technologies like HTML, CSS, JavaScript to build responsive websites.<br><br>
+            Developed a personal portfolio website as a practical project.<br><br>
+        Learned about version control systems like Git and hosting paltform likes GitHub.</li>
+            <li><span>UI/UX design</span><br>Learned principles of user experience (UX) design including user research and wireframing, and prototyping.<br><br>
+            Designed user friendly interfaces focusing on usability and accessibility.<br></li>
+            <li><span>Communication Skills</span><br>Speaking clearly, confidently and persuasively.<br><br>
+            Using gestures, facial expressions, and body language effectively.<br><br>
+        Writing emails, reports, and other content with clarity and proper structure.</li>
+            
+        </ul>
+       </div>
+       <div class="tab-contents" id="experience">
+        <ul>
+            <li><span>September 2024</span><br>Ethical Hacking Workshop Participant</li>
+            <li><span>June 2024-Present</span><br>Freelance Web Developer</li>
+            
+            
+        </ul>
+       </div>
+       <div class="tab-contents" id="education">
+        <ul>
+            <li><span>2022</span><br>Complete Secondary Education Examination from Shree Jiven Jyoti Secondary School, Solukhumbu.<br><br>
+            Achieved strong academic performance, focusing on core subjects like Math, Science and Computer.<br><br>
+        Actively participated in school events and competitions, develoing communication and teamwork skills.</li>
+            <li><span>2022-2024</span><br>Complete +2 from Shiksha deep boarding Seconadry School, Biratnagar.<br><br>
+            Specialized in management with a focus on accounting and computer science.<br><br>
+        Engaged in extracurricular activities and group project.</li>
+            <li><span>2024-Present</span><br>Join BCA (Bachelor of Computer Science) at MMAMC.</li>
+            
+        </ul>
+       </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>WEB Development</h2>
+                <p>Ensuring your site looks great on all devices, from desktops to mobile phones.<br>Building websites
+                     from The visual Studio Code using clean efficient code.<br>Expertise in HTML, CSS, JavaScript, and frameworks 
+                     to create visually appealing interfaces.<br>Keeping your side up-to-date, secure, and performing at its best.
+                    </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UX/UI design</h2>
+                <p>Designing Seamless, user-friendly interfaces by understanding user behavior and creating intuitive navigation flows.<br>
+                Creating visually appealing designs using modern tools and techniques while maintaining brand consistency.<br>
+            Developing low-fidelity wireframes and high-fidelity prototypes to visualize your product's look and feel before development.<br>
+        Conducting thorough testing to identify and resolve potential design issues before the product launch.                   </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>IT Support & Consultation</h2>
+                <p>Fixing issues and improving performance.<br>
+                    Helping with hosting, domains, and server configuration.<br>
+                    Guiding businesses in selecting the right tools and platforms.
+                   </p>
+                    <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div id="portfolio"> 
+     <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="images/IMG-20240203-WA0021.jpg">
+                <div class="layer">
+                    <h3>WINTER CODE CAMP</h3>
+                    <p> Gain new or advanced programming skills.<br>Work on real-world coding problems.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/7.jpeg">
+                <div class="layer">
+                    <h3>Library Management</h3>
+                    <p>Allows users to search for books by title, author, genre, or other criteria.<br>Supports e-books and digital resources for modern libraries. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/IMG-20250104-WA0007.jpg">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p> Creating, building and maintaining websites or web applications that run on the Internet.<br>It involves several technical and creative skills to ensure the website is functional, visually appealing, and provides a great user experience.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+         <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>harishankarbasnet111@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9744326508</p>
+           <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+           </div>
+              <a href="images/IMG_20250106_193234.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+         </div>   
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Hari. Made with <i class="fa-solid fa-heart"></i> by easy Tutorials</p>
+    </div>
+</div>
+
+
+<script src="first.js"></script>
+    
+    
+
+</body>
+
+</html>
