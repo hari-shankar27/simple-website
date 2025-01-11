@@ -30,35 +30,3 @@ function closemenu(){
       .catch(error => console.error('Error!', error.message))
   })
 
-
-
-  // Get modal element
-var modal = document.getElementById("modal");
-
-// Get all the "Learn More" buttons
-var learnMoreButtons = document.querySelectorAll(".learn-more");
-
-// Get the close button
-var closeButton = document.querySelector(".close");
-
-// Add event listener to each "Learn More" button
-learnMoreButtons.forEach(function(button) {
-    button.addEventListener("click", function(event) {
-        event.preventDefault();
-        // Show the modal
-        modal.style.display = "block";
-    });
-});
-
-// When the user clicks on the close button, close the modal
-closeButton.addEventListener("click", function() {
-    modal.style.display = "none";
-});
-
-// When the user clicks anywhere outside the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
