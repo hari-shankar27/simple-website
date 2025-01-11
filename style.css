@@ -364,6 +364,20 @@ nav .fa-solid{
     display: none;
 
 }
+.right-picture {
+    display: block; /* Makes the image a block element */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Keeps the aspect ratio intact */
+    width: 400px; /* Set the width of the image (adjustable as per preference) */
+    position: absolute; /* Uses absolute positioning for better control */
+    top: 50%; /* Positions the image at the center vertically */
+    right: 180px;
+    /* Moves the image 20px away from the right edge */
+    transform: translateY(-43%); 
+   
+    border-radius: 11%;
+}
+
 @media only screen and (max-width: 600px){
    .header-text{
     margin-top: 100%;
@@ -384,17 +398,17 @@ nav .fa-solid{
    nav ul{
     background: #ff004f;
     position: fixed;
-    top: o;
+    top: 0;
     right: -200px;
     width: 200px;
     height: 100vh;
     padding-top: 50px;
     z-index: 2;
-    transition: right 0.5s;
+    transition: 0.5s;
    }
    nav ul li{
     display: block;
-    margin: 25px;
+    margin: 60px;
 
    }
    nav ul .fa-solid{
@@ -429,21 +443,6 @@ nav .fa-solid{
 }
 }
 
-
-/* Ensuring the image is responsive and properly aligned */
-.right-picture {
-    display: block; /* Makes the image a block element */
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Keeps the aspect ratio intact */
-    width: 400px; /* Set the width of the image (adjustable as per preference) */
-    position: absolute; /* Uses absolute positioning for better control */
-    top: 50%; /* Positions the image at the center vertically */
-    right: 180px;
-    /* Moves the image 20px away from the right edge */
-    transform: translateY(-43%); 
-   
-    border-radius: 11%;
-}
 
 
 
